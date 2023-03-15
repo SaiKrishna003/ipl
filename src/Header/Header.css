@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+#header .navbar{
+    background-image: radial-gradient(circle,#172d58,blue,rgb(6, 6, 80));
+    margin-bottom: 20px;
+}
+
+#header .navbar-brand{
+    margin-right:40px !important;   
+}
+
+#IPL_Logo{
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 0 0 10px 3px white;
+}
+
+#IPL_Logo:hover, #IPL_Logo.active{
+    border: 5px solid black;
+}
+
+#header .navbar-toggler{
+    border: 1px solid white;
+    box-shadow: 0 0 20px rgb(0, 255, 0) !important;
+    
+}
+#header .navbar-toggler .carousel-control-next-icon{
+    transition: transform 0.3s ease;
+    transform: rotate(0deg);
+}
+
+#header .navbar-toggler .carousel-control-next-icon.active{
+    transform: rotate(90deg);
+}
+
+#header .navbar-nav{
+    column-gap: 30px;
+}
+#header .nav-link{
+    width : 150px;
+    height : 45px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 255, 0);
+    margin-top: 5px;
+}
+#header .nav-link:hover,#header .nav-link.active{
+    color: rgb(0, 253, 0) !important;
+    text-shadow: 0 0 10px rgb(0, 255, 0);
+    border: 2px solid rgb(0, 255, 0);
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0  rgb(0, 255, 0); 
+    font-size: large;
+}
+
+@media (max-width:1000px){
+    #header .nav-link{
+        width: 100%;
+    }
+}

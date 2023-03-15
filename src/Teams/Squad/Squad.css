@@ -1,0 +1,9 @@
+#squad{
+    flex : 85%;
+}
+
+@media (max-width:600px){
+    #squad{
+        margin-left: 10px;
+    }
+}

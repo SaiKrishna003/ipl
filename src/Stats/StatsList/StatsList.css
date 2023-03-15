@@ -1,0 +1,28 @@
+#statsList .nav-item{
+    flex:1;
+    border-right: 1px solid green;
+}
+#statsList .nav-item:last-child{
+    border-right: none;
+}
+#statsList .nav-item:hover,#statsList .nav-item.active{
+    font-size: large;
+    text-shadow: 0 0 1px lightgreen;
+}
+
+@media (max-width:600px){
+    #statsList .navbar{
+        display: block !important;
+    }
+    #statsList .nav-item{
+        border-right: none;
+        border-bottom: 1px solid green;
+    }
+    #statsList .nav-item:last-child{
+        border-bottom: none;
+    }
+    #statsList .nav-item:hover,#statsList .nav-item.active{
+        font-size: large;
+        text-shadow: 0 0 1px lightgreen;
+    }
+}

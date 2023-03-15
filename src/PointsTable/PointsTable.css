@@ -1,0 +1,15 @@
+@media (max-width:600px) {
+    #pointsTable table{
+        font-size: small ;
+    }
+    #pointsTable h2{
+        font-size: large;
+    }
+    #pointsTable #teamName{
+        gap: 5px !important;
+    }
+    #pointsTable img{
+        width: 20px;
+        height: 20px;
+    }
+}
