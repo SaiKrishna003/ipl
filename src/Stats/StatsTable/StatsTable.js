@@ -6,7 +6,7 @@ const StatsTable = (props) => {
   const [data,setData] = useState([])
   const [head,setHead] = useState([])
   useEffect(() => {
-    axios.get('http://localhost:8090/stats/'+props.selection)
+    axios.get(process.env.REACT_APP_BACKEND_URL + '/stats/' + props.selection)
     .then(response => {
       setData(response.data);
       setHead(response.data[0] && Object.keys(response.data[0]))

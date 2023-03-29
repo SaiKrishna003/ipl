@@ -19,7 +19,7 @@ const MatchSchedule = () => {
     'Sunrisers Hyderabad':'SRH'
   }
   useEffect(() => {
-    axios.get('http://localhost:8090/matches-schedule')
+    axios.get(process.env.REACT_APP_BACKEND_URL + '/matches-schedule')
       .then(response => {
         setData(response.data);
       })

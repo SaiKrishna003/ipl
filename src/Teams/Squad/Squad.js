@@ -5,7 +5,7 @@ import axios from 'axios'
 const Squad = (props) => {
   const [data,setData] = useState([])
   useEffect(() => {
-    axios.get(`http://localhost:8090/team/${props.teamName}`)
+    axios.get(process.env.REACT_APP_BACKEND_URL + '/team/' + props.teamName)
     .then(response => {
       setData(response.data);
     })

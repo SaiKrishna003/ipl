@@ -9,17 +9,17 @@ const Home = () => {
   const [team1Data,setTeam1Data] = useState([])
   const [team2Data,setTeam2Data] = useState([])
   const [data,setData] = useState([])
-  let team1Name = 'GT',team2Name = 'CSK'
+  let team1Name = 'DC',team2Name = 'CSK'
   
   useEffect(() => {
-    axios.get('http://localhost:8090/team/'+team1Name)
+    axios.get(process.env.REACT_APP_BACKEND_URL + '/team/' + team1Name)
     .then(response => {
       setTeam1Data(response.data)
       setData(response.data)
     }).catch(err => console.log(err))
   },[team1Name])
   useEffect(() => {
-    axios.get('http://localhost:8090/team/'+team2Name)
+    axios.get(process.env.REACT_APP_BACKEND_URL + '/team/' + team2Name)
     .then(response => {
       setTeam2Data(response.data)
     }).catch(err => console.log(err))

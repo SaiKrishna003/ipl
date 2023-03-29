@@ -13,7 +13,7 @@ export const ContextStore = createContext()
 function App() {
   const [teamLogos,setTeamLogos] = useState([])
   useEffect(() => {
-    axios.get('http://localhost:8090/teamlogos')
+    axios.get(process.env.REACT_APP_BACKEND_URL + '/teamlogos')
       .then(response => {
         setTeamLogos(response.data);
       })
