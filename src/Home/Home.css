@@ -1,39 +1,44 @@
 .vertical-line {
-    border-right: 1px solid green;
-    height: 50px;
+  border-right: 1px solid green;
+  height: 50px;
 }
-#score h3,#score h5,#score h6{
-    font-weight: bold;
+#score h3,
+#score h5,
+#score h6 {
+  font-weight: bold;
 }
-#scoreCard td{
-    font-weight: 50%;
+#scoreCard td {
+  font-weight: 50%;
 }
-#scoreCard li{
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#scoreCard li {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#scoreCard li:hover, #scoreCard li.active{
-    color: blue;
-    font-size: x-large;
+#scoreCard li:hover,
+#scoreCard li.active {
+  color: blue;
+  font-size: x-large;
 }
-@media (max-width:600px){
-    #score{
-        width: 100% !important;
-        border: none !important;
-        padding: 10px;
-    }
-    #score img{
-        height:40px;
-    }
-    #score h3,#score h5,#score h6{
-        font-size: small;
-    }
-    #scoreContainer th{
-        font-size: small;
-    }
-    #scoreContainer td{
-        font-size: x-small;
-    }
+@media (max-width: 600px) {
+  #score {
+    width: 100% !important;
+    border: none !important;
+    padding: 10px;
+  }
+  #score img {
+    height: 40px;
+  }
+  #score h3,
+  #score h5,
+  #score h6 {
+    font-size: small;
+  }
+  #scoreContainer th {
+    font-size: small;
+  }
+  #scoreContainer td {
+    font-size: x-small;
+  }
 }

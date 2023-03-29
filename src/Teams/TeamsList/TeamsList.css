@@ -1,28 +1,29 @@
-#teamsList{
-    flex: 15%;
+#teamsList {
+  flex: 15%;
 }
 
-#teamsList .navbar-toggler{
-    box-shadow: 0 0 20px rgb(0, 255, 0) !important;
+#teamsList .navbar-toggler {
+  box-shadow: 0 0 20px rgb(0, 255, 0) !important;
 }
-#teamsList .navbar-nav{
-    width: 100%;
-    background-color: darkblue;
-    border-bottom: 2px solid lightgreen;
-    box-shadow: 0 0 10px 3px black;
+#teamsList .navbar-nav {
+  width: 100%;
+  background-color: darkblue;
+  border-bottom: 2px solid lightgreen;
+  box-shadow: 0 0 10px 3px black;
 }
-#teamsList .nav-item{
-    text-align: center;
-    font-weight: bold;
-    color: lightgreen;
-    border: 2px solid lightgreen;
-    border-bottom: none;
+#teamsList .nav-item {
+  text-align: center;
+  font-weight: bold;
+  color: lightgreen;
+  border: 2px solid lightgreen;
+  border-bottom: none;
 }
-#teamsList .nav-item:hover, #teamsList .nav-item.active{
-    color: rgb(0, 253, 0) !important;
-    text-shadow: 0 0 10px rgb(0, 255, 0);
-    border: 2px solid rgb(0, 255, 0);
-    box-shadow: 0 0 5px 0  rgb(0, 255, 0);
-    background-color: blue;
-    font-size: large;
+#teamsList .nav-item:hover,
+#teamsList .nav-item.active {
+  color: rgb(0, 253, 0) !important;
+  text-shadow: 0 0 10px rgb(0, 255, 0);
+  border: 2px solid rgb(0, 255, 0);
+  box-shadow: 0 0 5px 0 rgb(0, 255, 0);
+  background-color: blue;
+  font-size: large;
 }

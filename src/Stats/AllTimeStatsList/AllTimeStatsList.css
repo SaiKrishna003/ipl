@@ -1,28 +1,30 @@
-#alltimestatsList .nav-item{
-    flex:1;
-    border-right: 1px solid green;
+#alltimestatsList .nav-item {
+  flex: 1;
+  border-right: 1px solid green;
 }
-#alltimestatsList .nav-item:last-child{
-    border-right: none;
+#alltimestatsList .nav-item:last-child {
+  border-right: none;
 }
-#alltimestatsList .nav-item:hover,#alltimestatsList .nav-item.active{
-    font-size: large;
-    text-shadow: 0 0 1px lightgreen;
+#alltimestatsList .nav-item:hover,
+#alltimestatsList .nav-item.active {
+  font-size: large;
+  text-shadow: 0 0 1px lightgreen;
 }
 
-@media (max-width:600px){
-    #alltimestatsList .navbar{
-        display: block !important;
-    }
-    #alltimestatsList .nav-item{
-        border-right: none;
-        border-bottom: 1px solid green;
-    }
-    #alltimestatsList .nav-item:last-child{
-        border-bottom: none;
-    }
-    #alltimestatsList .nav-item:hover,#alltimestatsList .nav-item.active{
-        font-size: large;
-        text-shadow: 0 0 1px lightgreen;
-    }
+@media (max-width: 600px) {
+  #alltimestatsList .navbar {
+    display: block !important;
+  }
+  #alltimestatsList .nav-item {
+    border-right: none;
+    border-bottom: 1px solid green;
+  }
+  #alltimestatsList .nav-item:last-child {
+    border-bottom: none;
+  }
+  #alltimestatsList .nav-item:hover,
+  #alltimestatsList .nav-item.active {
+    font-size: large;
+    text-shadow: 0 0 1px lightgreen;
+  }
 }
